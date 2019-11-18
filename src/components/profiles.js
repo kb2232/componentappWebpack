@@ -4,12 +4,16 @@ import Card from './card';
 class Profiles extends React.Component {
 	render() {
 		return (
-			<section>
+			<div>
+				<nav>static: Every time you REFRESH - a new content</nav>
+				<section>
 				<Card />
         <Card />
         <Card />
         <Card />
 			</section>
+			<footer>static footer for now</footer>
+			</div>
 		);
 	}
 }
